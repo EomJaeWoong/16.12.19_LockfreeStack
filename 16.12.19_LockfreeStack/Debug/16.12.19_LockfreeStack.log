@@ -1,0 +1,15 @@
+﻿빌드 시작: 2016-12-28 오전 9:58:31
+     1>2 노드의 "c:\Users\eomjaewoong\documents\visual studio 2013\Projects\16.12.19_LockfreeStack\16.12.19_LockfreeStack\16.12.19_LockfreeStack.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt LockfreeStack_test.cpp
+         LockfreeStack_test.cpp
+     1>c:\users\eomjaewoong\documents\visual studio 2013\projects\16.12.19_lockfreestack\16.12.19_lockfreestack\memorypool.h(171): error C2143: 구문 오류 : ';'이(가) '<' 앞에 없습니다.
+                 c:\users\eomjaewoong\documents\visual studio 2013\projects\16.12.19_lockfreestack\16.12.19_lockfreestack\memorypool.h(197) : 컴파일 중인 클래스 템플릿 인스턴스화 'CMemoryPool<DATA>'에 대한 참조를 확인하십시오.
+     1>c:\users\eomjaewoong\documents\visual studio 2013\projects\16.12.19_lockfreestack\16.12.19_lockfreestack\memorypool.h(171): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\users\eomjaewoong\documents\visual studio 2013\projects\16.12.19_lockfreestack\16.12.19_lockfreestack\memorypool.h(171): error C2238: ';' 앞에 예기치 않은 토큰이 있습니다.
+     1>c:\users\eomjaewoong\documents\visual studio 2013\projects\16.12.19_lockfreestack\16.12.19_lockfreestack\lockfreestack_test.cpp(96): warning C4244: '인수' : 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>"c:\Users\eomjaewoong\documents\visual studio 2013\Projects\16.12.19_LockfreeStack\16.12.19_LockfreeStack\16.12.19_LockfreeStack.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:00.47
